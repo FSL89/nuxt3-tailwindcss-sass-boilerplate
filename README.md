@@ -1,6 +1,16 @@
 # Nuxt 3.0.x stable boilerplate with Tailwind CSS and Sass
-The title should be rather self-explanatory, but I thought of creating a boilerplate that have TailwindCSS and Sass already configured.
-It's very basic and will require styling as I included the Tailwind 
+As Nuxt 3 stable was finally released, I thought of creating a boilerplate that have TailwindCSS and Sass pre-configured.
+
+## Instructions
+### Installation
+1. Clone the repository
+2. Run **npm install** from root directory (same directory as **app.js**)
+
+### Then what?
+- As **Preflight** is included in this base configuration of Tailwind CSS, a lot of styles have been *resetted* which means they have had most of their default styling removed, such as font sized and margins (referring to H1-H6 elements), so a good starting point could be setting those up in the **@layer base** in **assets/scss/tailwind.scss**, or remove **@tailwind base;** from the same file. I personally like to make my own styling from scratch rather than removing the defaults by myself later on at some point.
+
+- Apart from the Tailwind CSS part mentioned previously, this is basically the normal starter app from Nuxt, which means you'll have to setup the project as usual, such as adding specific directories such as **components** or **pages**. I first thought of adding this but I realize that not all developers setup Nuxt the same so I simply skipped it.
+
 
 ## Nuxt 3
 Nuxt is an open-source framework under MIT license for building modern and performant web applications that can be deployed on any platform running JavaScript.
