@@ -14,7 +14,7 @@ As Nuxt 3 stable was finally released, I thought of creating a boilerplate that 
 
 > Disabling Preflight
 > If you’d like to completely disable Preflight — perhaps because you’re integrating Tailwind into an existing project or because you’d like to provide your own base styles — all you need to do is set preflight to false in the corePlugins section of your tailwind.config.js file:
-
+> 
 > ```tailwind.config.js
 > module.exports = {
 >  corePlugins: {
