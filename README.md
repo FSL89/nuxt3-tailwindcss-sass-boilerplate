@@ -10,7 +10,17 @@ As Nuxt 3 stable was finally released, I thought of creating a boilerplate that 
 3. Once the packages are installed and you're ready to go, run `npm run dev` to start a development server. Default port is **3000**
 
 ### Then what?
-- As **Preflight** is included in this base configuration of **Tailwind CSS**, a lot of styles have been *resetted* which means they have had most of their default styling removed, such as font sized and margins (referring to H1-H6 elements), so a good starting point could be setting those up in the `@layer base` in `assets/scss/tailwind.scss`, or remove or comment out `@tailwind base;` from the same file. I personally like to make my own styling from scratch rather than removing the defaults by myself later on at some point.
+- As **Preflight** is included in this base configuration of **Tailwind CSS**, a lot of styles have been *resetted* which means they have had most of their default styling removed, such as font sized and margins (referring to H1-H6 elements), so a good starting point could be setting those up in the `@layer base` in `assets/scss/tailwind.scss`, or disable preflight completely. 
+
+> Disabling Preflight
+> If you’d like to completely disable Preflight — perhaps because you’re integrating Tailwind into an existing project or because you’d like to provide your own base styles — all you need to do is set preflight to false in the corePlugins section of your tailwind.config.js file:
+
+```tailwind.config.js
+module.exports = {
+  corePlugins: {
+    preflight: false,
+  }
+}```
 
 - Apart from the **Tailwind CSS** part mentioned previously, this is exactly like the normal starter app from Nuxt, which means you'll have to setup the project as usual, such as adding specific directories such as **components** or **pages**. I first thought of adding this but I realize that not all developers setup Nuxt the same so I simply skipped it.
 
