@@ -5,6 +5,7 @@ As Nuxt 3 stable was finally released, I thought of creating a boilerplate that 
 ### Installation
 1. Clone the repository
 2. Run **npm install** from root directory (same directory as **app.js**)
+3. Once the packages are installed and you're ready to go, run **npm run dev** to start a development server. Default port is **3000**
 
 ### Then what?
 - As **Preflight** is included in this base configuration of Tailwind CSS, a lot of styles have been *resetted* which means they have had most of their default styling removed, such as font sized and margins (referring to H1-H6 elements), so a good starting point could be setting those up in the **@layer base** in **assets/scss/tailwind.scss**, or remove **@tailwind base;** from the same file. I personally like to make my own styling from scratch rather than removing the defaults by myself later on at some point.
