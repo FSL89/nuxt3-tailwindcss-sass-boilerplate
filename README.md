@@ -1,4 +1,4 @@
-![Nuxt Logo](https://nuxtjs.org/design-kit/colored-logo.png) + ![Tailwind CSS Logo](https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg) + 
+<img src="https://nuxtjs.org/design-kit/colored-logo.png" alt="Nuxt Logo" width="100px" height="100px"> + <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="Tailwind CSS Logo" width="100px" height="100px">
 
 # Nuxt 3.0.x stable boilerplate with Tailwind CSS and Sass
 As Nuxt 3 stable was finally released, I thought of creating a boilerplate that have TailwindCSS and Sass pre-configured.
